@@ -1,0 +1,31 @@
+Poids de classe (à tester)
+Données de validations (à tester)
+
+
+1) Batch 64, E=10 -> petite diminution
+
+2) Avec transformations bizarre, sans poids, avec loss et optimizer, décongélation, scheduler step_size=7, gamma=0.1), 
+=> diminution (0.8181)
+
+2) weights = [1/0.98, 1/0.02], Séparation des données 80-20, E=15 
+=> surrapprentissage (0.8461)
+
+3) Idem mais sans décongélation, nouvelles façons de transformer, weights = [0.1, 0.9]
+=> 
+
+
+
+
+# separer les données en train et test et bien reppartir les classes ou ponderer par la frequence inverse ... WeightedRandomSampler ??
+# Ajouter d'autre image avec transformation (X, Y, rotation ...)
+# re train tous resnet et pas que la derniere couche
+# Ajouter des workers à dataLoader
+# utiliser tensorboard pour visualiser les données (utilse pour le compte rendu)
+
+# rapport de 10-15 pages avec une date limite le 21/11 à 23h59.
+
+# Le rapport doit détailler et analyser votre démarche, depuis le
+# pré-traitement des données jusqu'aux évaluations de votre modèle en
+# passant par la définition de l'architecture de celui-ci.
+# - La présentation reprend le contenu du rapport de façon synthétique en
+# plus d'autres contenus complémentaires si besoin.
