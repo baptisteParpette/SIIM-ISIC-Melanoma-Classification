@@ -27,3 +27,5 @@ Baptiste/PremierProgrammeGPT/runs/Oct29_08-49-16_MSI/events.out.tfevents.1698565
 Baptiste/PremierProgrammeGPT/runs/Oct29_08-59-51_MSI/events.out.tfevents.1698566391.MSI.25632.0
 Baptiste/PremierProgrammeGPT/runs/Oct29_09-00-43_MSI/events.out.tfevents.1698566443.MSI.20996.0
 Gabriel/here.txt
+Baptiste/ResNet101-100epoch/melanoma_model.pth
+Baptiste/here.txt
